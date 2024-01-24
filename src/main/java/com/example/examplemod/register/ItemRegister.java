@@ -1,6 +1,6 @@
 package com.example.examplemod.register;
 
-import com.example.examplemod.ExampleMod;
+import com.example.examplemod.VampireBloodline;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -10,7 +10,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ItemRegister {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ExampleMod.MODID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(VampireBloodline.MODID);
 
     public static final DeferredItem<BlockItem> EXAMPLE_BLOCK_ITEM = registerBlockItem(BlockRegister.EXAMPLE_BLOCK, new Item.Properties());
     public static final DeferredItem<BlockItem> TEST_BLOCK_1_ITEM = registerBlockItem(BlockRegister.TEST_BLOCK_1, new Item.Properties());
