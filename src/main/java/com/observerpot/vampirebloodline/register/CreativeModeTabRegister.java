@@ -1,6 +1,6 @@
-package com.example.examplemod.register;
+package com.observerpot.vampirebloodline.register;
 
-import com.example.examplemod.VampireBloodline;
+import com.observerpot.vampirebloodline.VampireBloodline;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;

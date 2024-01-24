@@ -1,12 +1,11 @@
-package com.example.examplemod;
+package com.observerpot.vampirebloodline;
 
-import com.example.examplemod.register.BlockRegister;
-import com.example.examplemod.register.CreativeModeTabRegister;
-import com.example.examplemod.register.ItemRegister;
+import com.observerpot.vampirebloodline.register.BlockRegister;
+import com.observerpot.vampirebloodline.register.CreativeModeTabRegister;
+import com.observerpot.vampirebloodline.register.ItemRegister;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -17,7 +16,6 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.slf4j.Logger;
 

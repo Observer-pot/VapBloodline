@@ -1,4 +1,4 @@
-package com.example.examplemod.blocks;
+package com.observerpot.vampirebloodline.blocks;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;

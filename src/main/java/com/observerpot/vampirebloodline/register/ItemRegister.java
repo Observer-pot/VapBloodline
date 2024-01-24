@@ -1,6 +1,6 @@
-package com.example.examplemod.register;
+package com.observerpot.vampirebloodline.register;
 
-import com.example.examplemod.VampireBloodline;
+import com.observerpot.vampirebloodline.VampireBloodline;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

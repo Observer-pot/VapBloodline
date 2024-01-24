@@ -1,8 +1,8 @@
-package com.example.examplemod.register;
+package com.observerpot.vampirebloodline.register;
 
-import com.example.examplemod.VampireBloodline;
-import com.example.examplemod.blocks.TestBlock1;
-import com.example.examplemod.blocks.TestBlock2;
+import com.observerpot.vampirebloodline.VampireBloodline;
+import com.observerpot.vampirebloodline.blocks.TestBlock1;
+import com.observerpot.vampirebloodline.blocks.TestBlock2;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
