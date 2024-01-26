@@ -1,6 +1,8 @@
 package com.observerpot.vampirebloodline.register;
 
 import com.observerpot.vampirebloodline.VampireBloodline;
+import com.observerpot.vampirebloodline.items.AdvanceStaff;
+import com.observerpot.vampirebloodline.items.BasicStaff;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -19,6 +21,8 @@ public class ItemRegister {
     public static final DeferredItem<Item> EXAMPLE_ITEM = registerItem("example_item", new Item.Properties().food(new FoodProperties.Builder()
             .alwaysEat().nutrition(1).saturationMod(2f).build()));
     public static final DeferredItem<Item> TEST_ITEM_1 = registerItem("test_item_1", new Item.Properties());
+    public static final DeferredItem<Item> BASIC_STAFF = ITEMS.register("basic_staff", BasicStaff::new);
+    public static final DeferredItem<Item> ADVANCE_STAFF = ITEMS.register("advance_staff", AdvanceStaff::new);
 
     public static DeferredItem<BlockItem> registerBlockItem(DeferredBlock<Block> block, Item.Properties properties) {
         DeferredItem<BlockItem> blockItemObj = ITEMS.registerSimpleBlockItem(block, properties);
