@@ -8,24 +8,10 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.neoforge.event.entity.player.EntityItemPickupEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 
 @Mod.EventBusSubscriber(modid = VampireBloodline.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class MyEvent {
-    @SubscribeEvent
-    public static void pickupItem(EntityItemPickupEvent event) {
-            System.out.println("Item picked up!");
-    }
-
-    @SubscribeEvent
-    public static void useBasicStaff(PlayerInteractEvent.RightClickItem event) {
-        Player player = event.getEntity();
-        if (player.getItemInHand(event.getHand()).is(ItemRegister.BASIC_STAFF.asItem())) {
-            MobEffectInstance instance = new MobEffectInstance(MobEffects.ABSORPTION, 2000, 100);
-            player.addEffect(instance);
-        }
-    }
 
     @SubscribeEvent
     public static void useAdvanceStaff(PlayerInteractEvent.RightClickItem event) {

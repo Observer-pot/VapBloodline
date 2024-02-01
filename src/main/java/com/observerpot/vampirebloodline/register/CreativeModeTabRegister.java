@@ -18,6 +18,7 @@ public class CreativeModeTabRegister {
                 output.accept(ItemRegister.EXAMPLE_ITEM.get());
                 output.accept(ItemRegister.BASIC_STAFF.get());
                 output.accept(ItemRegister.ADVANCE_STAFF.get());
+                output.accept(ItemRegister.Dragon_SLAYER_SWORD.get());
             }).build());
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB_BLOCK = CREATIVE_MODE_TABS.register("example_tab_block", () -> CreativeModeTab.builder()
